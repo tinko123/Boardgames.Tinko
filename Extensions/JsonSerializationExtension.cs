@@ -15,10 +15,6 @@ namespace Boardgames.Extensions
             {
                 NullValueHandling = NullValueHandling.Ignore,
                 Formatting = Formatting.Indented
-            //    Converters = new List<JsonConverter>()
-            //{
-            //    new StringEnumConverter()
-            //}
             };
 
             string result = JsonConvert.SerializeObject(obj, jsonSerializer);
